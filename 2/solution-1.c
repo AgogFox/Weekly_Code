@@ -11,18 +11,18 @@ int main ()
     weight = weight / (height * height);
     if (weight < 18.5)
     {
-    printf("Underweight");
+        printf("Underweight");
     }
     else if (weight >= 18.5 && weight <=24.9)
     {
-    printf("Normal");
+        printf("Normal");
     }
     else if (weight >= 25.0 && weight <= 29.9)
     {
-    printf("Taller than normal");
+        printf("Taller than normal");
     }
     else
     {
-    printf("Overweight");
+        printf("Overweight");
     } 
 }
