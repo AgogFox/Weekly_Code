@@ -3,6 +3,7 @@
 int main ()
 {
     int hight = 0;
+    printf("Enter a number : ");
     scanf("%d", &hight);
 
     for (int i = 1; i <= hight; i++)
