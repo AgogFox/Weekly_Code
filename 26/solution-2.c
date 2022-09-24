@@ -18,6 +18,10 @@ int main ()
             trigger = 1;
             line--;
         }
+        if (line == 0)
+        {
+            break;
+        }
         for (int i = 1; i <= line; i++)
         {
             printf("*");
@@ -34,9 +38,5 @@ int main ()
 
         //counter
         trigger == 0? line++: line--;
-        if (line == 0)
-        {
-            break;
-        }
     }
 }
